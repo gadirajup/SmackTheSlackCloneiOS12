@@ -395,6 +395,9 @@
                         <viewLayoutGuide key="safeArea" id="26u-4y-E6r"/>
                     </view>
                     <connections>
+                        <outlet property="email" destination="ndp-gv-z04" id="3hu-ar-8fm"/>
+                        <outlet property="password" destination="ZRb-He-qyr" id="eU8-CT-Lq6"/>
+                        <outlet property="userName" destination="5mD-EX-Bj5" id="V3d-rP-Azj"/>
                         <segue destination="eJb-NF-x0z" kind="unwind" identifier="segueToChannel" unwindAction="rewindFromSignUpWithSegue:" id="B7x-i4-Ej0"/>
                         <segue destination="K8s-1L-Uwl" kind="show" identifier="segueToChannel2" id="Kru-oo-dcb"/>
                     </connections>
